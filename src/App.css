@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap");
+
+html{
+    direction: rtl;
+}
+body{
+    background-color:  #13171f;
+}
+#top{
+    margin-top:100px;
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.container h2{
+    color: #76787c;
+}
+.container h3{
+    color: #c1c2c4;
+}
+hr{
+    opacity: 0.1;
+}
+select{
+    border-color: black;
+    font-size: large;
+}
+@media (max-width: 576px) {
+    .container{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    #top{
+        margin-top: 25px;
+    }
+    .card{
+        direction: ltr;
+        display: flex;
+        justify-content: space-between;
+        align-items:  center;
+        width: 100%  !important;
+        text-align: left;
+        height: 100px !important;
+        margin-bottom: 2px !important;
+    }
+    .card img{
+        width: 30%;
+        margin: auto;
+        
+    }
+    .card div{
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+  }
